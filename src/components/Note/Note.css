@@ -1,0 +1,49 @@
+.note {
+    position: relative;
+    background-color: #f8fa7e;
+    width: 10em;
+    height: 10em;
+    margin: 1em;
+    padding: 1em;
+    text-decoration: none;
+    display: flex;
+    flex-direction: column;
+    transform: rotate(-6deg);
+    align-content: center;
+    z-index: 1;
+    transition: all ease 0.4s;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+.note:nth-child(2n) {
+    transform: rotate(4deg);
+    position: relative;
+    background-color: #7afcff;
+    top: 5px;
+}
+
+.note:nth-child(3n) {
+    transform: rotate(-3deg);
+    position: relative;
+    background-color: #fb59ee;
+    top: 5px;
+}
+
+
+.note:hover{
+    transform: scale(1.5);
+    z-index: 5;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 30px 90px;
+    /* box-shadow: rgba(100, 100, 111, 0.3) 0px 7px 29px 0px; */
+
+}
+
+
+.note__text {
+    flex: 1;
+    text-align: center;
+}
+
+.note__link {
+    display: none;
+}
