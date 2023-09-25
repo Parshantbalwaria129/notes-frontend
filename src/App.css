@@ -5,6 +5,23 @@
   padding-bottom: 60px;
 }
 
+.App .add-button{
+  position: absolute;
+  bottom: 55px;
+  right: 60px;
+  border-radius: 50px;
+  font-size: xx-large;
+  width: 45px;
+  height: 45px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.App .add-button .add-button-text{
+  margin-bottom: 2px;
+}
+
 .notes-list {
   display: flex;
   flex-wrap: wrap;
