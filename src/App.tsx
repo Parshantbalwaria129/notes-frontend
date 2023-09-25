@@ -137,6 +137,16 @@ function App() {
             />
           );
         })}
+        <div className="notes-list-add-button">
+          <div className="note">
+            <button
+              type="button"
+              className="btn-close "
+              onClick={handleShowNoteModel}
+              // aria-label="add"
+            ></button>
+          </div>
+        </div>
       </div>
     </div>
   );
